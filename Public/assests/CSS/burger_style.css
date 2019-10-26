@@ -1,0 +1,116 @@
+html {
+    background-color: black;
+}
+
+body {
+    width: 75%;
+   margin: 0 auto; 
+
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   background-color:black;
+	/* background-image: url("http://www.mustdobrisbane.com/sites/default/files/da-burger-new-farm-073.jpg");
+    background-size: 80%;
+    background-attachment: fixed; */
+
+}
+
+#burger_image {
+    display: block;
+   margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', cursive;
+    font-weight: normal;
+    font-size: 65px;
+    margin: 50px;
+    color: white;
+}
+
+.burgerAvailable {
+    font-family: 'Arial', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+
+    border-radius: 25px;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.burgerAvailable:hover {
+    background-color: white;
+}
+
+.burgerEaten {
+    font-family: 'Arial', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+form{
+    text-align: center;
+}
+
+h2 {
+     text-align: center;
+    font-family: 'Arial', cursive;
+    font-size: 40px;
+    margin: 50px;
+}
+
+.formContainer {
+    background-color:white;
+}
+
+.addBurgerButton {
+    
+    font-family: 'Arial', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.addBurgerButton:active {
+   background-color:white;
+}
+
+.burgerFooter {
+   background-color: black;
+   padding: 20px 0;
+   clear: both;
+   position: inherit;
+   color: white;
+}
+p, pre {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', cursive;
+    font-weight: normal;
+    font-size: 30px;
+    margin: 50px;
+    color: white;
+}
+.row {
+    background-image: url("http://www.mustdobrisbane.com/sites/default/files/da-burger-new-farm-073.jpg");
+    background-size: 80%;
+    background-attachment: fixed;
+    
+}
